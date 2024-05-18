@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 10;
 }
 div.container{
   border:5px solid #8A6F6B;
@@ -28,20 +28,21 @@ header{
   .topnav {
     display: flex;
     justify-content: space-between;
-    overflow: hidden;
+    overflow: auto;
+    flex-direction: column;
     }
       .topnav a {
     overflow: visible;
     background-color: #8A6F6B;
     color: #b8aaa7;
-    font-size: 15px;
+    font-size: 8px;
   }
     navbar-element { 
       margin-right: 10px;  
       background-color: #8A6F6B;
     } 
     .navbar a {
-    flex: 3;
+    flex: 1 1 200px;
     text-align: center;
     }
 
